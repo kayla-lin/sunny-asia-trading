@@ -5,7 +5,7 @@ import { forwardRef } from "react";
 
 const LED_PRICES = [
   {
-    title: "4 LED Panel Light 5CCT (12 PCS)",
+    title: '4" LED Panel Light 5CCT (12 PCS)',
     per: "138 per case ($11.50ea)",
     bulk: "5 Cases or More: $114 per case ($9.5ea)",
   },
@@ -15,11 +15,11 @@ const LED_PRICES = [
     bulk: "5 Cases or More: $120 per case ($10ea)",
   },
   {
-    title: '2"X2" LED Panel Light 3CCT (4 PCS)',
+    title: "2'X2' LED Panel Light (4 PCS)",
     per: "$140 per case ($35ea)",
   },
   {
-    title: '2"X4" LED Panel Light 3CCT (4 PCS)',
+    title: "2'X4' LED Panel Light 3CCT (4 PCS)",
     per: "$200 per case ($50ea)",
   },
 ];
@@ -87,7 +87,16 @@ export const Products = forwardRef<HTMLDivElement>((_, ref) => {
               padding: "50px 20px",
             })}
           >
-            <h3 className={css({ fontSize: "md", fontWeight: "bold" })}>
+            <h3
+              className={css({
+                fontSize: "md",
+                mb: "5px",
+                fontWeight: "bold",
+                borderBottomColor: "secondary",
+                borderBottomStyle: "solid",
+                borderBottomWidth: "1px",
+              })}
+            >
               {price.title}
             </h3>
             <li className={priceBulletStyles}>{price.per}</li>
