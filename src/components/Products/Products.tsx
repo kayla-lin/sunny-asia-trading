@@ -6,20 +6,20 @@ import { forwardRef } from "react";
 const LED_PRICES = [
   {
     title: '4" LED Panel Light 5CCT (12 PCS)',
-    per: "138 per case ($11.50ea)",
-    bulk: "5 Cases or More: $114 per case ($9.5ea)",
+    per: "$114 per case ($9.50ea)",
+    bulk: "Buy 2 Cases or More",
   },
   {
     title: '6" LED Panel Light 5CCT (12 PCS)',
-    per: "144 per case ($12ea)",
-    bulk: "5 Cases or More: $120 per case ($10ea)",
+    per: "$120 per case ($10a)",
+    bulk: "Buy 2 Cases or More",
   },
   {
     title: "2'X2' LED Panel Light (4 PCS)",
     per: "$140 per case ($35ea)",
   },
   {
-    title: "2'X4' LED Panel Light 3CCT (4 PCS)",
+    title: "2'X4' LED Panel Light (4 PCS)",
     per: "$200 per case ($50ea)",
   },
 ];
